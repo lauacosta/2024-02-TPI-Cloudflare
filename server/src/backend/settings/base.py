@@ -101,7 +101,7 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://localhost:5173",
-    "https://2024-02-tpi-cloudflare-shared.pages.dev/",
+    "https://2024-02-tpi-cloudflare-shared.pages.dev",
     "https://elrincondelinge.org",
 ]
 
