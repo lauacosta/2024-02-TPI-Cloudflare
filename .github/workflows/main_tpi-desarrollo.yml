@@ -31,7 +31,7 @@ jobs:
       with:
         push: true
         tags: restapi.azurecr.io/${{ secrets.AzureAppService_ContainerUsername_05336492ce994317bcfb0ab38414ee59 }}/django-rest-api:${{ github.sha }}
-        file: ./Dockerfile
+        file: ./server/Dockerfile
 
   deploy:
     runs-on: ubuntu-latest
